@@ -1,0 +1,1 @@
+protoc -I proto/user proto/user/user.proto  --go_out=plugins=micro:proto/user

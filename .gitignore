@@ -1,1 +1,13 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+package.json
+package-lock.json
 .idea
+yarn.lock
+scaffolds
+images/
