@@ -51,7 +51,7 @@ func (sub *Subscriber) Process(ctx context.Context, user *userPb.User) error {
 	return nil
 }
 
-func senEmail(user *userPb.User) error {
-	log.Printf("[SENDING A EMAIL TO %s...]", user.Name)
-	return nil
-}
+//func senEmail(user *userPb.User) error {
+//	log.Printf("[SENDING A EMAIL TO %s...]", user.Name)
+//	return nil
+//}
